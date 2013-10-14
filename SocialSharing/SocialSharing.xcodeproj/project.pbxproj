@@ -21,6 +21,7 @@
 		EED3D9DD180C5CFF00FD5B89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED3D9BF180C5CFF00FD5B89 /* UIKit.framework */; };
 		EED3D9E5180C5CFF00FD5B89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EED3D9E3180C5CFF00FD5B89 /* InfoPlist.strings */; };
 		EED3D9E7180C5CFF00FD5B89 /* SocialSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EED3D9E6180C5CFF00FD5B89 /* SocialSharingTests.m */; };
+		EED3D9F1180C63AE00FD5B89 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED3D9F0180C63AE00FD5B89 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EED3D9E2180C5CFF00FD5B89 /* SocialSharingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialSharingTests-Info.plist"; sourceTree = "<group>"; };
 		EED3D9E4180C5CFF00FD5B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EED3D9E6180C5CFF00FD5B89 /* SocialSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialSharingTests.m; sourceTree = "<group>"; };
+		EED3D9F0180C63AE00FD5B89 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED3D9F1180C63AE00FD5B89 /* Social.framework in Frameworks */,
 				EED3D9BE180C5CFF00FD5B89 /* CoreGraphics.framework in Frameworks */,
 				EED3D9C0180C5CFF00FD5B89 /* UIKit.framework in Frameworks */,
 				EED3D9BC180C5CFF00FD5B89 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		EED3D9BA180C5CFF00FD5B89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EED3D9F0180C63AE00FD5B89 /* Social.framework */,
 				EED3D9BB180C5CFF00FD5B89 /* Foundation.framework */,
 				EED3D9BD180C5CFF00FD5B89 /* CoreGraphics.framework */,
 				EED3D9BF180C5CFF00FD5B89 /* UIKit.framework */,

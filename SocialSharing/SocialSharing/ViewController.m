@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <Social/Social.h>
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize shareBtn, resultsLabel, inputText;
 
 - (void)viewDidLoad
 {
@@ -24,6 +26,22 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)shareButtonClick:(id)sender {
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        SLComposeViewController *vc = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        [vc setInitialText:inputText.text];
+        [self presentViewController:vc animated:YES completion:nil];
+    } else {
+        NSLog(@"facebook is not configured");
+    }
+    
+}
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end
