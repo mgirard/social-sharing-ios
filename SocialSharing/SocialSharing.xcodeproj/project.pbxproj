@@ -470,6 +470,7 @@
 				EED3D9EC180C5CFF00FD5B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EED3D9ED180C5CFF00FD5B89 /* Build configuration list for PBXNativeTarget "SocialSharingTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				EED3D9EF180C5CFF00FD5B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
