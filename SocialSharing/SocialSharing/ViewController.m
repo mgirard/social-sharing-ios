@@ -39,7 +39,8 @@
 	} else {
 		items = @[inputText.text];
 	}
-    UIActivityViewController *shareVc = [[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:nil];
+	NSArray *shareDestinations = @[UIActivityTypePostToFacebook, UIActivityTypePostToTwitter];
+    UIActivityViewController *shareVc = [[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:shareDestinations];
     [shareVc setCompletionHandler:^(NSString *activityType, BOOL completed) {
 		NSString *outString = [NSString stringWithFormat:@"completed is %d, sharing type is... %@", completed, activityType];
         resultsLabel.text = outString;
