@@ -47,6 +47,8 @@ build/
 *.perspectivev3
 *~.nib
 *.ipa
+*.xccheckout
+*.xcuserstate
 
 #android specific
 *.bin
