@@ -204,9 +204,6 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Michael Girard";
 				TargetAttributes = {
-					EED3D9B7180C5CFF00FD5B89 = {
-						DevelopmentTeam = 922A69QJGM;
-					};
 					EED3D9D8180C5CFF00FD5B89 = {
 						TestTargetID = EED3D9B7180C5CFF00FD5B89;
 					};
